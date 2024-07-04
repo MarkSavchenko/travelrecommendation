@@ -1,0 +1,208 @@
+/* Basic reset and styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  /* Home page styles */
+  .home {
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fpapers.co%2Fdesktop%2Fod09-nature-travel-kit%2F&psig=AOvVaw1nqD4MvwJewunzdIkwbA2U&ust=1720147155025000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIjd09OtjIcDFQAAAAAdAAAAABAE');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .introduction {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  .introduction h1 {
+    font-size: 2.5em;
+    margin: 0 0 20px 0;
+  }
+  
+  .introduction p {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  /* About Us page styles */
+.about {
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .company-info {
+    margin-bottom: 30px;
+  }
+  
+  .company-info h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .company-info p {
+    font-size: 1.2em;
+  }
+  
+  .team {
+    margin-top: 20px;
+  }
+  
+  .team h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .team-member {
+    margin-bottom: 20px;
+  }
+  
+  .team-member h3 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .team-member p {
+    font-size: 1.2em;
+    margin: 5px 0 0 0;
+  }
+  
+/* Navbar styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .search-bar {
+    display: flex;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+  }
+  
+  /* Introduction section styles */
+  .introduction {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Search results styles */
+  .results {
+    padding: 20px;
+  }
+  
+  .result-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result-item img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .result-item h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .result-item p {
+    font-size: 1.2em;
+  }
+  

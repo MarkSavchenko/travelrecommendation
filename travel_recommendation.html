@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom</title>
+    <link rel="stylesheet" href="travel_recommendation.css">
+    <script defer src="travel_recommendation.js"></script>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="travel_recommendation.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Enter keyword...">
+            <button id="search-button">Search</button>
+            <button id="reset-button">Reset</button>
+        </div>
+    </nav>
+
+    <!-- Introduction section -->
+    <section class="introduction">
+        <h1>Welcome to TravelBloom!</h1>
+        <p>
+            Explore our recommendations for beautiful destinations around the world. Whether you're
+            looking for serene beaches, awe-inspiring temples, or vibrant cities, we have something
+            for everyone's taste.
+        </p>
+    </section>
+
+    <!-- Search results section -->
+    <section class="search-section">
+        <h2>Search Results</h2>
+        <div id="results" class="results">
+            <!-- Results will be dynamically added here -->
+        </div>
+    </section>
+</body>
+</html>
